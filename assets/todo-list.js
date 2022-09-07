@@ -5,7 +5,6 @@ $(document).ready(function(){
         var item = $('form input');
         console.log(item);
         var todo = {item: item.val()};
-  
         $.ajax({
           type: 'POST',
           url: '/todo',
